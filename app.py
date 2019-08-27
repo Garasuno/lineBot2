@@ -25,8 +25,10 @@ def callback():
     sendText(user,userText)
     if (usertext == 'สวัสดี'):
         senttext(user , 'เอ่อดีด้วย')
-    Elif (usertext == 'บายจ้า'):
+    elif (usertext == 'บายจ้า'):
         senttext(user , 'บาย')
+    else :
+            senttext(user , 'กาว')
     return '',200
 
 def sendText(user, text):
